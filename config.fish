@@ -15,8 +15,8 @@ set fish_greeting
 
 . $fish_path/aliases.fish
 . $fish_path/export.fish
-#. $fish_path/utils.fish
-#. $fish_path/gitprompt.fish
+. $fish_path/utils.fish
+. $fish_path/gitprompt.fish
 
 # git prompt
 
