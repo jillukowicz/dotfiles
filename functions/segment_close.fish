@@ -1,0 +1,1 @@
+/Users/jillukowicz/.config/fisherman/segment/segment_close.fish

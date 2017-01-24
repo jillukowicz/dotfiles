@@ -1,0 +1,1 @@
+/Users/jillukowicz/.config/fisherman/stark/fish_right_prompt.fish

@@ -1,0 +1,1 @@
+/Users/jillukowicz/.config/fisherman/stark/set_color_custom.fish

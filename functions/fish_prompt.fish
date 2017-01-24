@@ -1,1 +1,1 @@
-/Users/jillukowicz/.local/share/omf/themes/agnoster/fish_prompt.fish
+/Users/jillukowicz/.config/fisherman/stark/fish_prompt.fish
