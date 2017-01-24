@@ -15,8 +15,8 @@ set fish_greeting
 
 . $fish_path/aliases.fish
 . $fish_path/export.fish
-. $fish_path/utils.fish
-. $fish_path/gitprompt.fish
+#. $fish_path/utils.fish
+#. $fish_path/gitprompt.fish
 
 # git prompt
 
@@ -54,7 +54,6 @@ function fish_prompt --description 'Write out the prompt'
 
 end
 
-
 # Paths to your tackle
 set tacklebox_path ~/.tackle ~/.tacklebox
 set tacklebox_path ~/.tackle
@@ -62,7 +61,7 @@ set tacklebox_modules virtualfish virtualhooks
 set tacklebox_plugins extract grc pip python up
 set tacklebox_theme entropy
 # Theme
-#set tacklebox_theme entropy
+set tacklebox_theme entropy
 
 # Which modules would you like to load? (modules can be found in ~/.tackle/modules/*)
 # Custom modules may be added to ~/.tacklebox/modules/
