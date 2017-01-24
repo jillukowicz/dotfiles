@@ -22,7 +22,7 @@ alias t=tree
 alias c=clear
 alias f='find . -name'
 alias fa='find / -name'
-alias r='rm -R'
+alias r='rm -rf'
 alias o='open ~/'
 alias w='cd ~/workspace'
 alias a='atom'
@@ -38,6 +38,8 @@ alias cafe="caffeinate -i ~/scripts/coffe_cup.sh"
 alias ip='geoiplookup'
 alias osx='~/scripts/mac.sh'
 alias czip='zip -r'
+alias weather="curl -4 wttr.in/Antwerpen"
+alias moon="curl -4 wttr.in/Moon"
 
 #ACSL
 alias b2b01='ssh b2b01.acslworld.com'
@@ -50,6 +52,7 @@ alias tunnel="~/scripts/autossh-acsl-dev01.sh"
 alias smongo="mongod --config /usr/local/etc/mongod.conf"
 
 #GIT
+alias gf='git rev-list --all | xargs git grep $1'
 alias gs='git status'
 alias gbm='git checkout master'
 alias gbr='git checkout release'
@@ -64,7 +67,7 @@ alias gbd="git branch -D"
 alias gst="git status -sb --ignore-submodules"
 alias gstl="git status"
 alias gm="git merge --no-ff"
-alias gp="git push"
+alias gp="git pull"
 alias gpt="git push --tags"
 alias gcob="git checkout -b"
 alias gco="git checkout"
