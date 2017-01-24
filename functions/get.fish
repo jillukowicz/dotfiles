@@ -1,0 +1,1 @@
+/Users/jillukowicz/.config/fisherman/get/functions/get.fish
